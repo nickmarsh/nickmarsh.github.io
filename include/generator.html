@@ -35,16 +35,6 @@
             </span>
         </h1>
     </header>
-    <ul class="nav nav-tabs">
-        <li id="defaultLocale" ng-repeat="cvLocale in cv" ng-class="{
-                    active: active === cvLocale.locale.locale
-                }">
-            <a href="#{{cvLocale.locale.locale}}" data-toggle="tab">
-                <img src="img/blank.gif" class="flag {{cvLocale.locale.flagClass}}"
-                     alt="{{cvLocale.locale.flagClass}}"/>
-            </a>
-        </li>
-    </ul>
     <br/>
 
     <div class="tab-content">
