@@ -770,7 +770,6 @@ cvGeneratorControllers.controller("CVGeneratorController", ["$scope", "$http", "
                     }
                     choosenLocale.locale = locale;
 
-                    $scope.showGenerator = true;
 					$("#localeModal").modal("hide");
                 }
             }
