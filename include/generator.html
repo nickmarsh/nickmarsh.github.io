@@ -17,8 +17,7 @@
 
 <div class="container" ng-cloak>
     <header class="page-header">
-        <h1>Curriculum Vitae Generator
-            <small>v@VERSION@</small>
+        <h1>CV Build
             <span class="btn-group pull-right">
                 <input style="display:none;" type="file" id="savedFile" ng-file-change="loadSavedFile(this)">
                 <button class="btn btn-default" ng-click="saveCV()">
@@ -44,9 +43,6 @@
                 <img src="img/blank.gif" class="flag {{cvLocale.locale.flagClass}}"
                      alt="{{cvLocale.locale.flagClass}}"/>
             </a>
-        </li>
-        <li id="addLanguage">
-            <a href="#" ng-click="addLanguage()"><span class="glyphicon glyphicon-plus"></span></a>
         </li>
     </ul>
     <br/>
