@@ -17,7 +17,7 @@
                             "value": "//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap-theme.min.css",
                             "options": [
                                 {
-                                    "label": "Bootstrap",
+                                    "label": "Bootstrap CSS",
                                     "value": "//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap-theme.min.css"
                                 }
                             ]
@@ -180,23 +180,8 @@
                     "inputType": "text"
                 },
                 {
-                    "key": "logo",
-                    "keyLabel": "logo",
-                    "inputType": "image"
-                },
-                {
                     "key": "type",
                     "keyLabel": "type",
-                    "inputType": "text"
-                },
-                {
-                    "key": "numberOfEmployees",
-                    "keyLabel": "numberOfEmployees",
-                    "inputType": "text"
-                },
-                {
-                    "key": "revenue",
-                    "keyLabel": "revenue",
                     "inputType": "text"
                 },
                 {
@@ -236,11 +221,6 @@
                             "inputType": "text"
                         },
                         {
-                            "key": "logo",
-                            "keyLabel": "customerLogo",
-                            "inputType": "image"
-                        },
-                        {
                             "key": "description",
                             "keyLabel": "description",
                             "inputType": "textarea"
@@ -249,21 +229,6 @@
                             "key": "duration",
                             "keyLabel": "duration",
                             "inputType": "text"
-                        },
-                        {
-                            "key": "teamSize",
-                            "keyLabel": "teamSize",
-                            "inputType": "text"
-                        },
-                        {
-                            "key": "technologies",
-                            "keyLabel": "technologies",
-                            "inputType": "textarea"
-                        },
-                        {
-                            "key": "workEnvironment",
-                            "keyLabel": "workEnvironment",
-                            "inputType": "textarea"
                         },
                         {
                             "key": "comment",
@@ -370,75 +335,6 @@
                     "key": "name",
                     "keyLabel": "name",
                     "inputType": "text"
-                },
-                {
-                    "key": "beginYear",
-                    "keyLabel": "beginYear",
-                    "inputType": "number"
-                }
-            ]
-        },
-        {
-            "key": "contributionLanguages",
-            "keyLabel": "contributions",
-            "inputType": "panel",
-            "titleTemplate": "panel.fields[0].value",
-            "fieldsTemplate": [
-                {
-                    "key": "label",
-                    "keyLabel": "programmingLanguage",
-                    "inputType": "text"
-                },
-                {
-                    "key": "contributions",
-                    "keyLabel": "contributions",
-                    "inputType": "panel",
-                    "titleTemplate": "panel.fields[0].value",
-                    "fieldsTemplate": [
-                        {
-                            "key": "project",
-                            "keyLabel": "project",
-                            "inputType": "text"
-                        },
-                        {
-                            "key": "projectLink",
-                            "keyLabel": "projectLink",
-                            "inputType": "text"
-                        },
-                        {
-                            "key": "targetVersion",
-                            "keyLabel": "targetVersion",
-                            "inputType": "text"
-                        },
-                        {
-                            "key": "type",
-                            "keyLabel": "type",
-                            "inputType": "text"
-                        },
-                        {
-                            "key": "description",
-                            "keyLabel": "description",
-                            "inputType": "textarea"
-                        },
-                        {
-                            "key": "links",
-                            "keyLabel": "links",
-                            "inputType": "panel",
-                            "titleTemplate": "panel.fields[0].value",
-                            "fieldsTemplate": [
-                                {
-                                    "key": "label",
-                                    "keyLabel": "label",
-                                    "inputType": "text"
-                                },
-                                {
-                                    "key": "value",
-                                    "keyLabel": "link",
-                                    "inputType": "text"
-                                }
-                            ]
-                        }
-                    ]
                 }
             ]
         },
