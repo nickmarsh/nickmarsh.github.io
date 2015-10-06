@@ -1,10 +1,9 @@
 {
     "supportedLocales": [
         {
-            "locale": "en_US",
+            "locale": "en_GB",
             "localeFile": "en.json",
             "dataFile": "data_en.json",
-            "flagClass": "flag-us",
             "label": "English"
         }
     ]
