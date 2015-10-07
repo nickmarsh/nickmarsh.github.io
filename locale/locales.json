@@ -7,6 +7,14 @@
             "flagClass": "flag-us",
             "label": "English"
         },
+        {
+            "locale": "en_US",
+            "localeFile": "en.json",
+            "dataFile": "data_en.json",
+            "flagClass": "flag-us",
+            "label": "English"
+        }
+
 
     ]
 }
