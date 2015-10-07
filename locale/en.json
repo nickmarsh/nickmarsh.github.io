@@ -15,6 +15,7 @@
     "displayOnPdf": "Display on PDF",
     "beginDate": "Start date",
     "endDate": "End date",
+	"theme": "Theme",
     "job": "Job",
     "companyName": "Company Name",
     "comment": "Comment",
