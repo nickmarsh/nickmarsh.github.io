@@ -17,8 +17,72 @@
                             "value": "//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap-theme.min.css",
                             "options": [
                                 {
-                                    "label": "Bootstrap CSS",
+                                    "label": "Bootstrap (default)",
                                     "value": "//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap-theme.min.css"
+                                },
+                                {
+                                    "label": "Amelia",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/amelia/bootstrap.min.css"
+                                },
+                                {
+                                    "label": "Cerulean",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/cerulean/bootstrap.min.css"
+                                },
+                                {
+                                    "label": "Cosmo",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/cosmo/bootstrap.min.css"
+                                },
+                                {
+                                    "label": "Custom",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/custom/bootstrap.min.css"
+                                },
+                                {
+                                    "label": "Cyborg",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/cyborg/bootstrap.min.css"
+                                },
+                                {
+                                    "label": "Darkly",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/darkly/bootstrap.min.css"
+                                },
+                                {
+                                    "label": "Flatly",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/flatly/bootstrap.min.css"
+                                },
+                                {
+                                    "label": "Journal",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/journal/bootstrap.min.css"
+                                },
+                                {
+                                    "label": "Lumen",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/lumen/bootstrap.min.css"
+                                },
+                                {
+                                    "label": "Readable",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/readable/bootstrap.min.css"
+                                },
+                                {
+                                    "label": "Simplex",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/simplex/bootstrap.min.css"
+                                },
+                                {
+                                    "label": "Slate",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/slate/bootstrap.min.css"
+                                },
+                                {
+                                    "label": "Spacelab",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/spacelab/bootstrap.min.css"
+                                },
+                                {
+                                    "label": "Superhero",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/superhero/bootstrap.min.css"
+                                },
+                                {
+                                    "label": "United",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/united/bootstrap.min.css"
+                                },
+                                {
+                                    "label": "Yeti",
+                                    "value": "//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/yeti/bootstrap.min.css"
                                 }
                             ]
                         }
@@ -39,14 +103,20 @@
             ]
         },
         {
+            "key": "lastName",
+            "keyLabel": "lastName",
+            "inputType": "text"
+        },
+        {
             "key": "firstName",
             "keyLabel": "firstName",
             "inputType": "text"
         },
         {
-            "key": "lastName",
-            "keyLabel": "lastName",
-            "inputType": "text"
+            "key": "photo",
+            "keyLabel": "photo",
+            "inputType": "image",
+            "accept": "image/jpeg"
         },
         {
             "key": "birthDate",
@@ -180,8 +250,23 @@
                     "inputType": "text"
                 },
                 {
+                    "key": "logo",
+                    "keyLabel": "logo",
+                    "inputType": "image"
+                },
+                {
                     "key": "type",
                     "keyLabel": "type",
+                    "inputType": "text"
+                },
+                {
+                    "key": "numberOfEmployees",
+                    "keyLabel": "numberOfEmployees",
+                    "inputType": "text"
+                },
+                {
+                    "key": "revenue",
+                    "keyLabel": "revenue",
                     "inputType": "text"
                 },
                 {
@@ -221,6 +306,11 @@
                             "inputType": "text"
                         },
                         {
+                            "key": "logo",
+                            "keyLabel": "customerLogo",
+                            "inputType": "image"
+                        },
+                        {
                             "key": "description",
                             "keyLabel": "description",
                             "inputType": "textarea"
@@ -229,6 +319,21 @@
                             "key": "duration",
                             "keyLabel": "duration",
                             "inputType": "text"
+                        },
+                        {
+                            "key": "teamSize",
+                            "keyLabel": "teamSize",
+                            "inputType": "text"
+                        },
+                        {
+                            "key": "technologies",
+                            "keyLabel": "technologies",
+                            "inputType": "textarea"
+                        },
+                        {
+                            "key": "workEnvironment",
+                            "keyLabel": "workEnvironment",
+                            "inputType": "textarea"
                         },
                         {
                             "key": "comment",
@@ -335,6 +440,75 @@
                     "key": "name",
                     "keyLabel": "name",
                     "inputType": "text"
+                },
+                {
+                    "key": "beginYear",
+                    "keyLabel": "beginYear",
+                    "inputType": "number"
+                }
+            ]
+        },
+        {
+            "key": "contributionLanguages",
+            "keyLabel": "contributions",
+            "inputType": "panel",
+            "titleTemplate": "panel.fields[0].value",
+            "fieldsTemplate": [
+                {
+                    "key": "label",
+                    "keyLabel": "programmingLanguage",
+                    "inputType": "text"
+                },
+                {
+                    "key": "contributions",
+                    "keyLabel": "contributions",
+                    "inputType": "panel",
+                    "titleTemplate": "panel.fields[0].value",
+                    "fieldsTemplate": [
+                        {
+                            "key": "project",
+                            "keyLabel": "project",
+                            "inputType": "text"
+                        },
+                        {
+                            "key": "projectLink",
+                            "keyLabel": "projectLink",
+                            "inputType": "text"
+                        },
+                        {
+                            "key": "targetVersion",
+                            "keyLabel": "targetVersion",
+                            "inputType": "text"
+                        },
+                        {
+                            "key": "type",
+                            "keyLabel": "type",
+                            "inputType": "text"
+                        },
+                        {
+                            "key": "description",
+                            "keyLabel": "description",
+                            "inputType": "textarea"
+                        },
+                        {
+                            "key": "links",
+                            "keyLabel": "links",
+                            "inputType": "panel",
+                            "titleTemplate": "panel.fields[0].value",
+                            "fieldsTemplate": [
+                                {
+                                    "key": "label",
+                                    "keyLabel": "label",
+                                    "inputType": "text"
+                                },
+                                {
+                                    "key": "value",
+                                    "keyLabel": "link",
+                                    "inputType": "text"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
